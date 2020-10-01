@@ -1,0 +1,19 @@
+{
+    "name": "pantheion/model",
+    "description": "Model ORM",
+    "authors": [
+        {
+            "name": "Pedro Miguel",
+            "email": "pedro.aos19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pantheion\\Model\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "pantheion/facade": "dev-master"
+    }
+}
