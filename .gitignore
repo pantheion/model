@@ -1,3 +1,9 @@
 vendor/
 notes.txt
 index.php
+composer.lock
+Category.php
+Comment.php
+Post.php
+Product.php
+Tag.php

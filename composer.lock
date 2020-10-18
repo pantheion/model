@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae6d44c072ab988da912384f192b2389",
+    "content-hash": "e176798ef5230cd9afa476c124189a8e",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -177,12 +177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "4bbd5e23b7a7b15d3fd1c95a3751574e0c1678c1"
+                "reference": "ac36e555ec5c43a62bea4613a10be1607fa31bbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/4bbd5e23b7a7b15d3fd1c95a3751574e0c1678c1",
-                "reference": "4bbd5e23b7a7b15d3fd1c95a3751574e0c1678c1",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/ac36e555ec5c43a62bea4613a10be1607fa31bbf",
+                "reference": "ac36e555ec5c43a62bea4613a10be1607fa31bbf",
                 "shasum": ""
             },
             "require": {
@@ -194,11 +194,10 @@
             "require-dev": {
                 "doctrine/coding-standard": "^8.1",
                 "jetbrains/phpstorm-stubs": "^2019.1",
-                "nikic/php-parser": "^4.4",
                 "phpstan/phpstan": "^0.12.40",
                 "phpstan/phpstan-phpunit": "^0.12",
                 "phpstan/phpstan-strict-rules": "^0.12.2",
-                "phpunit/phpunit": "^9.3",
+                "phpunit/phpunit": "^9.4",
                 "psalm/plugin-phpunit": "^0.10.0",
                 "symfony/console": "^2.0.5|^3.0|^4.0|^5.0",
                 "vimeo/psalm": "^3.14.2"
@@ -278,7 +277,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-28T15:03:27+00:00"
+            "time": "2020-10-10T23:55:55+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -286,12 +285,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/event-manager.git",
-                "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f"
+                "reference": "348f72ec92c7e0b1f5462f6616af2b448ba3cbb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/41370af6a30faa9dc0368c4a6814d596e81aba7f",
-                "reference": "41370af6a30faa9dc0368c4a6814d596e81aba7f",
+                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/348f72ec92c7e0b1f5462f6616af2b448ba3cbb1",
+                "reference": "348f72ec92c7e0b1f5462f6616af2b448ba3cbb1",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +367,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-29T18:28:51+00:00"
+            "time": "2020-10-05T12:08:55+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -543,12 +542,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "fab61277b827e42fc8aed9f01b2294cfdfb388fc"
+                "reference": "db2173fbb9ebb97645c17ea23b1ec0c9be6abb0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/fab61277b827e42fc8aed9f01b2294cfdfb388fc",
-                "reference": "fab61277b827e42fc8aed9f01b2294cfdfb388fc",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/db2173fbb9ebb97645c17ea23b1ec0c9be6abb0d",
+                "reference": "db2173fbb9ebb97645c17ea23b1ec0c9be6abb0d",
                 "shasum": ""
             },
             "require": {
@@ -624,7 +623,40 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-01T17:49:42+00:00"
+            "time": "2020-10-16T08:27:39+00:00"
+        },
+        {
+            "name": "pantheion/charon",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pantheion/charon.git",
+                "reference": "db63830830ad5846355f8f5244ed25efc700ccfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pantheion/charon/zipball/db63830830ad5846355f8f5244ed25efc700ccfa",
+                "reference": "db63830830ad5846355f8f5244ed25efc700ccfa",
+                "shasum": ""
+            },
+            "require-dev": {
+                "pantheion/exception": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pantheion\\Charon\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pedro Miguel",
+                    "email": "pedro.aos19@gmail.com"
+                }
+            ],
+            "description": "Exception handler",
+            "time": "2020-10-05T23:16:15+00:00"
         },
         {
             "name": "pantheion/database",
@@ -632,12 +664,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/database.git",
-                "reference": "ac0c4d76d14745a2955dd9083cf5c71dfe46744d"
+                "reference": "26303c4dd83c12794c2f871674285bd2e391f7d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/database/zipball/ac0c4d76d14745a2955dd9083cf5c71dfe46744d",
-                "reference": "ac0c4d76d14745a2955dd9083cf5c71dfe46744d",
+                "url": "https://api.github.com/repos/pantheion/database/zipball/26303c4dd83c12794c2f871674285bd2e391f7d7",
+                "reference": "26303c4dd83c12794c2f871674285bd2e391f7d7",
                 "shasum": ""
             },
             "require": {
@@ -659,7 +691,7 @@
                 }
             ],
             "description": "Database and Query",
-            "time": "2020-10-01T19:18:00+00:00"
+            "time": "2020-10-18T15:36:54+00:00"
         },
         {
             "name": "pantheion/engine",
@@ -667,12 +699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/engine.git",
-                "reference": "94c62441af805b174f12d60f861ee1073f3579c5"
+                "reference": "fa92458259ebe32426da7085eec7590b5657ea1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/engine/zipball/94c62441af805b174f12d60f861ee1073f3579c5",
-                "reference": "94c62441af805b174f12d60f861ee1073f3579c5",
+                "url": "https://api.github.com/repos/pantheion/engine/zipball/fa92458259ebe32426da7085eec7590b5657ea1e",
+                "reference": "fa92458259ebe32426da7085eec7590b5657ea1e",
                 "shasum": ""
             },
             "require": {
@@ -695,7 +727,7 @@
                 }
             ],
             "description": "Engine base",
-            "time": "2020-09-17T10:43:45+00:00"
+            "time": "2020-10-05T23:21:05+00:00"
         },
         {
             "name": "pantheion/facade",
@@ -703,12 +735,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/facade.git",
-                "reference": "63ddaef63b65e92576e9c25e32fe748d16226c1e"
+                "reference": "0ca6054bc7b9cc43bd53a02c65f3838e38b11799"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/facade/zipball/63ddaef63b65e92576e9c25e32fe748d16226c1e",
-                "reference": "63ddaef63b65e92576e9c25e32fe748d16226c1e",
+                "url": "https://api.github.com/repos/pantheion/facade/zipball/0ca6054bc7b9cc43bd53a02c65f3838e38b11799",
+                "reference": "0ca6054bc7b9cc43bd53a02c65f3838e38b11799",
                 "shasum": ""
             },
             "require": {
@@ -732,7 +764,7 @@
                 }
             ],
             "description": "Facade",
-            "time": "2020-09-17T13:38:40+00:00"
+            "time": "2020-10-06T00:33:38+00:00"
         },
         {
             "name": "pantheion/filesystem",
@@ -740,12 +772,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/filesystem.git",
-                "reference": "e7a212ede0c773656b5aa05bb899a7e7e79d92ed"
+                "reference": "9d9ce59301855de3be5d34037650e144b3dc46c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/filesystem/zipball/e7a212ede0c773656b5aa05bb899a7e7e79d92ed",
-                "reference": "e7a212ede0c773656b5aa05bb899a7e7e79d92ed",
+                "url": "https://api.github.com/repos/pantheion/filesystem/zipball/9d9ce59301855de3be5d34037650e144b3dc46c3",
+                "reference": "9d9ce59301855de3be5d34037650e144b3dc46c3",
                 "shasum": ""
             },
             "type": "library",
@@ -762,7 +794,7 @@
                 }
             ],
             "description": "Filesystem",
-            "time": "2020-07-26T16:04:37+00:00"
+            "time": "2020-10-05T23:23:07+00:00"
         },
         {
             "name": "pantheion/helpers",
@@ -770,12 +802,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/helpers.git",
-                "reference": "d8877de732bc481b73918ec92d6899b2116a49e8"
+                "reference": "84833066106821b0ccc9e2b5924f2d894700ab38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/helpers/zipball/d8877de732bc481b73918ec92d6899b2116a49e8",
-                "reference": "d8877de732bc481b73918ec92d6899b2116a49e8",
+                "url": "https://api.github.com/repos/pantheion/helpers/zipball/84833066106821b0ccc9e2b5924f2d894700ab38",
+                "reference": "84833066106821b0ccc9e2b5924f2d894700ab38",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +827,7 @@
                 }
             ],
             "description": "Helpers",
-            "time": "2020-08-09T11:02:06+00:00"
+            "time": "2020-10-05T23:25:30+00:00"
         },
         {
             "name": "pantheion/http",
@@ -803,12 +835,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/http.git",
-                "reference": "51adb4081984ca27b01f157af0ecbb2c4973fd28"
+                "reference": "277cc47df6af9fbfddf7302df4c8ebd9ded8f197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/http/zipball/51adb4081984ca27b01f157af0ecbb2c4973fd28",
-                "reference": "51adb4081984ca27b01f157af0ecbb2c4973fd28",
+                "url": "https://api.github.com/repos/pantheion/http/zipball/277cc47df6af9fbfddf7302df4c8ebd9ded8f197",
+                "reference": "277cc47df6af9fbfddf7302df4c8ebd9ded8f197",
                 "shasum": ""
             },
             "require": {
@@ -828,7 +860,7 @@
                 }
             ],
             "description": "HTTP layer",
-            "time": "2020-08-16T13:50:24+00:00"
+            "time": "2020-10-05T23:25:56+00:00"
         },
         {
             "name": "pantheion/middleware",
@@ -836,12 +868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/middleware.git",
-                "reference": "f6deb69edbc3ed56eaf073833946a915e0533f8c"
+                "reference": "f5d80e7894b229efdd14c7bd4d3599b5267f2e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/middleware/zipball/f6deb69edbc3ed56eaf073833946a915e0533f8c",
-                "reference": "f6deb69edbc3ed56eaf073833946a915e0533f8c",
+                "url": "https://api.github.com/repos/pantheion/middleware/zipball/f5d80e7894b229efdd14c7bd4d3599b5267f2e8a",
+                "reference": "f5d80e7894b229efdd14c7bd4d3599b5267f2e8a",
                 "shasum": ""
             },
             "require": {
@@ -862,7 +894,7 @@
                 }
             ],
             "description": "Middleware",
-            "time": "2020-08-16T16:46:46+00:00"
+            "time": "2020-10-05T23:26:24+00:00"
         },
         {
             "name": "pantheion/routing",
@@ -870,12 +902,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/routing.git",
-                "reference": "646fcf6fb2f917e2d1b30917edc019e5cd3e609f"
+                "reference": "4b106bb2d454ea3682e2ff9ff4c37429c6c92702"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/routing/zipball/646fcf6fb2f917e2d1b30917edc019e5cd3e609f",
-                "reference": "646fcf6fb2f917e2d1b30917edc019e5cd3e609f",
+                "url": "https://api.github.com/repos/pantheion/routing/zipball/4b106bb2d454ea3682e2ff9ff4c37429c6c92702",
+                "reference": "4b106bb2d454ea3682e2ff9ff4c37429c6c92702",
                 "shasum": ""
             },
             "require": {
@@ -895,7 +927,7 @@
                     "email": "pedro.aos19@gmail.com"
                 }
             ],
-            "time": "2020-09-17T11:18:43+00:00"
+            "time": "2020-10-05T23:26:49+00:00"
         },
         {
             "name": "pantheion/utils",
@@ -903,12 +935,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheion/utils.git",
-                "reference": "3510bff371a9abe18e5700d4249af8a8cb486b85"
+                "reference": "ca2044f22fb5f2f48a3b6eb11d6038a7fa0a63a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheion/utils/zipball/3510bff371a9abe18e5700d4249af8a8cb486b85",
-                "reference": "3510bff371a9abe18e5700d4249af8a8cb486b85",
+                "url": "https://api.github.com/repos/pantheion/utils/zipball/ca2044f22fb5f2f48a3b6eb11d6038a7fa0a63a3",
+                "reference": "ca2044f22fb5f2f48a3b6eb11d6038a7fa0a63a3",
                 "shasum": ""
             },
             "require": {
@@ -929,7 +961,7 @@
                 }
             ],
             "description": "Utilities for support",
-            "time": "2020-08-05T14:29:23+00:00"
+            "time": "2020-10-05T23:28:28+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1363,16 +1395,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "dev-master",
+            "version": "5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "1ee329949a65f76c880a3c9c91eb9069b527a44d"
+                "reference": "e96fb12fc77d8c868bca0bef364b863c115ce55b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/1ee329949a65f76c880a3c9c91eb9069b527a44d",
-                "reference": "1ee329949a65f76c880a3c9c91eb9069b527a44d",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/e96fb12fc77d8c868bca0bef364b863c115ce55b",
+                "reference": "e96fb12fc77d8c868bca0bef364b863c115ce55b",
                 "shasum": ""
             },
             "require": {
@@ -1409,9 +1441,7 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "5.2-dev"
-                }
+                "branch-version": "5.2"
             },
             "autoload": {
                 "files": [
@@ -1454,7 +1484,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-28T13:05:58+00:00"
+            "time": "2020-10-14T17:08:19+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -1612,7 +1642,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pantheion/facade": 20
+        "pantheion/facade": 20,
+        "pantheion/charon": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
