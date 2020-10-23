@@ -86,6 +86,11 @@ class QueryBuilder extends Builder
 
             foreach($result as $key => $value) {
                 if($this->tableInstance->hasColumn($key)) {
+                    if(is_null($value)) {
+                        $attributes[$key] = null;
+                        continue;
+                    }
+
                     $attributes[$key] = $this->tableInstance
                         ->schema
                         ->getColumn($key)

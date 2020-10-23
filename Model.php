@@ -466,6 +466,65 @@ abstract class Model implements JsonSerializable
     }
 
     /**
+     * Returns the Model current
+     * attributes in an array
+     * 
+     * @return array
+     */
+    public function getAttributes()
+    {
+        return $this->attributes;
+    }
+
+    /**
+     * Checks if the Model has the
+     * attribute with the name passed
+     * as parameter
+     *
+     * @param string $key attribute name
+     * @return boolean
+     */
+    public function hasAttribute(string $key)
+    {
+        return isset($this->attributes[$key]);
+    }
+
+    /**
+     * Returns the Model without
+     * the attributes passed as parameters
+     *
+     * @param ...$args
+     * @return Model
+     */
+    public function exceptAttributes(...$args)
+    {
+        foreach($args as $attribute)
+        {
+            unset($this->attributes[$attribute]);
+        }
+
+        return $this;
+    }
+
+    /**
+     * Returns the Model with just
+     * the attributes passed as parameters
+     *
+     * @param ...$args
+     * @return Model
+     */
+    public function onlyAttributes(...$args)
+    {
+        foreach($this->attributes as $attribute => $value) {
+            if(!in_array($attribute, $args)) {
+                unset($this->attributes[$attribute]);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
      * PHP's magic method __get
      *
      * @param string $name
